@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+    font: 15px arial;
+}
+
+.navbar {
+    padding: 5px;
+}
+
+.navbar[align=center] > * {
+    display: block;
+    cursor: pointer;
+    width: 95%;
+    padding: 5px;
+    color: #000000;
+    text-align: center;
+}
+
+.navbar .header {
+    background: peachpuff;
+}
+
+.navbar .div {
+    background: peachpuff;
+}
+
+.navbar .span {
+    background: peachpuff;
+}
+
+.navbar .footer {
+    background: peachpuff;
+}
+
+.noselect {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+    background: #333;
+    padding-right: 5%;
+}
+
+.canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 300px;
+    bottom: 0;
+    background: #ffffff;
+    overflow: auto;
+}
+
+.container {
+    width: 40%;
+    border-radius: 15px;
+    border: 1px solid Black;
+    padding: 15px 15px 15px 15px;
+    margin: 20px 20px 20px 20px;
+    background: peachpuff;
+    overflow: visible;
+    box-shadow: 5px 5px 2px #888888;
+    position: relative;
+}
+
+.x {
+    position: absolute;
+    background: white;
+    color: black;
+    top: -10px;
+    right: -10px;
+}
+
